@@ -28,42 +28,49 @@ const CardsWithProducts: React.FC = () => {
           </Link>
         </Card>
       </Tooltip>
+
       <Tooltip color={"success"} content={"GREENHEART"} className="capitalize">
         <Card className="col-span-12 sm:col-span-4 h-[300px]">
-          <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-            <p className="text-tiny text-white/60 uppercase font-bold">
-              Plant a tree
-            </p>
-            <h4 className="text-white font-medium text-large">
-              Contribute to the planet
-            </h4>
-          </CardHeader>
-          <Image
-            removeWrapper
-            alt="Card background"
-            className="z-0 w-full h-full object-cover"
-            src="https://nextui.org/images/card-example-3.jpeg"
-          />
+          <Link href="/plant">
+            <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+              <p className="text-tiny text-white/60 uppercase font-bold">
+                Plant a tree
+              </p>
+              <h4 className="text-white font-medium text-large">
+                Contribute to the planet
+              </h4>
+            </CardHeader>
+            <Image
+              removeWrapper
+              alt="Card background"
+              className="z-0 w-full h-full object-cover"
+              src="https://nextui.org/images/card-example-3.jpeg"
+            />
+          </Link>
         </Card>
       </Tooltip>
+
       <Tooltip color={"success"} content={"RAZER"} className="capitalize">
         <Card className="col-span-12 sm:col-span-4 h-[300px]">
-          <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-            <p className="text-tiny text-white/60 uppercase font-bold">
-              RAZER LAPTOP
-            </p>
-            <h4 className="text-white font-medium text-large">
-              Creates beauty like a beast
-            </h4>
-          </CardHeader>
-          <Image
-            removeWrapper
-            alt="Card background"
-            className="z-0 w-full h-full object-cover"
-            src="https://nextui.org/images/card-example-2.jpeg"
-          />
+          <Link href="/razer">
+            <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+              <p className="text-tiny text-white/60 uppercase font-bold">
+                RAZER LAPTOP
+              </p>
+              <h4 className="text-white font-medium text-large">
+                Creates beauty like a beast
+              </h4>
+            </CardHeader>
+            <Image
+              removeWrapper
+              alt="Card background"
+              className="z-0 w-full h-full object-cover"
+              src="https://assets2.razerzone.com/images/pnx.assets/e9d1f25b84209661bb678afc1a1580f8/razer-blade-18-2024-b-480x615-mobile.webp"
+            />
+          </Link>
         </Card>
       </Tooltip>
+
       <Card
         isFooterBlurred
         className="w-full h-[300px] col-span-12 sm:col-span-5"
@@ -120,7 +127,7 @@ const CardsWithProducts: React.FC = () => {
               src="https://nextui.org/images/breathing-app-icon.jpeg"
             />
             <div className="flex flex-col">
-              <p className="text-tiny text-white/60">RRP 3D Viewer App</p>
+              <p className="text-tiny text-white/60">VIRVIS 3D Viewer App</p>
               <p className="text-tiny text-white/60">
                 Explore anywhere, anytime.
               </p>
